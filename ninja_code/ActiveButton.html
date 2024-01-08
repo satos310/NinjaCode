@@ -1,0 +1,25 @@
+<div id = "app">
+    <!-- "v-bind" -> クラスの付け外しが可能になる -->
+    <div v-bind:class="{active:isActive}">     <!-- isActiveがtrue -> activeクラスが有効になる -->
+        Active!!
+    </div>
+</div>
+
+<style>
+    #app .active {
+        width: 30%;
+        margin: 30% auto;
+        padding: 1rem;
+        background: #40B983;
+        color: #ffffff;
+        text-align: center;
+        box-shadow: 6px 6px #ddd;
+    }
+</style>
+
+<script>
+    var app = new Vue ({
+        el: "#app",
+        data: { isActive: true }      // isActiveがtrueであることを宣言
+    })
+</script>
