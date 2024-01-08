@@ -1,0 +1,24 @@
+<div id = "app">
+    <!-- Vueでは {{ 値 }} とすることでVueインスタンスの値を表示させることができる -->
+    {{message}}
+</div>
+
+<style>
+    #app {
+        font-size: 3rem;
+        font-weight: bold;
+        text-align: center;
+        margin: 30% auto;
+        color: #41BA83;
+    }
+</style>
+
+<script src="https://cdn.jsdelivr.net/npm/vue/dist/vue.js"></script>
+<script>
+    const vm = new Vue ({      // "new Vue"->Vueインスタンスの生成
+        el: "#app",     // "el"->ターゲットを決める
+        data: {     // "data: {}"->elで決めたターゲットにdataの内容を入れる
+            message: "Hello 忍者code!",
+        },
+    });
+</script>
