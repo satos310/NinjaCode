@@ -1,0 +1,22 @@
+{
+  "name": "my-awesome-package",
+  "version": "1.0.0",
+  "description": "q",
+  "main": "q",
+  "scripts": {
+    "test": "q"
+  },
+  "author": "satoshi",
+  "license": "ISC",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/satos310/NinjaCode.git"
+  },
+  "keywords": [
+    "hubG2l-ap9sAP"
+  ],
+  "bugs": {
+    "url": "https://github.com/satos310/NinjaCode/issues"
+  },
+  "homepage": "https://github.com/satos310/NinjaCode#readme"
+}
