@@ -8,9 +8,9 @@ import 'bootstrap/dist/css/bootstrap.css'
 import 'bootstrap-vue/dist/bootstrap-vue.css'
 
 // BoostrapVueをプロジェクト全体で利用できるようにする
-Vue.use(Bootstrap)
+Vue.use(BootstrapVue)
 // BootstrapVueアイコンコンポーネントプラグインの使用
-Vue.use(IconPlugin)
+Vue.use(IconsPlugin)
 
 Vue.config.productionTip = false
 
