@@ -1,5 +1,7 @@
 <template>
   <div id="app">
+    <PageHeader />    <!-- Header.vueを表示 -->
+
     <img alt="Vue logo" src="./assets/logo.png">
     <HelloWorld msg="Welcome to Your Vue.js App"/>
   </div>
@@ -7,13 +9,15 @@
 
 <script>
 import HelloWorld from './components/HelloWorld.vue'
+import PageHeader from "./components/modules/PageHeader";   // Header.vueをインポート
 
 export default {
   name: 'App',
   components: {
-    HelloWorld
-  }
-}
+    HelloWorld,
+    PageHeader,    // compornentsにHeaderを追加する
+  },
+};
 </script>
 
 <style>
