@@ -1,21 +1,25 @@
 <template>
   <div id="app">
-    <PageHeader />    <!-- Header.vueを表示 -->
+    <PageHeader />    <!-- PageHeader.vueを表示 -->
 
     <img alt="Vue logo" src="./assets/logo.png">
     <HelloWorld msg="Welcome to Your Vue.js App"/>
+    
+    <PageFooter />    <!-- PageFooter.vueを表示 -->
   </div>
 </template>
 
 <script>
-import HelloWorld from './components/HelloWorld.vue'
-import PageHeader from "./components/modules/PageHeader";   // Header.vueをインポート
+import HelloWorld from "./components/HelloWorld.vue";
+import PageHeader from "./components/modules/PageHeader";   // PageHeader.vueをインポート
+import PageFooter from "./components/modules/PageFooter";   // PageFooter.vueをインポート
 
 export default {
   name: 'App',
   components: {
     HelloWorld,
-    PageHeader,    // compornentsにHeaderを追加する
+    PageHeader,    // compornentsにPageHeaderを追加する
+    PageFooter,    // compornentsにPageFooterを追加する
   },
 };
 </script>
