@@ -1,6 +1,6 @@
 <template>
     <div>
-        <b-navbar type="dark" variant="dark">
+        <b-navbar type="dark" variant="dark" fixed="top">   <!-- fixed="top" -> 画面上部に固定 -->
             <b-navbar-nav>
                 <b-nav-item href = "#">Home</b-nav-item>
                 <!-- Navbar dropdowns -->
